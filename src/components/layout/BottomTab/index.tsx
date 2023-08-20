@@ -6,7 +6,7 @@ import {
 } from '@react-navigation/bottom-tabs';
 import styles from './styles';
 import routerList from '@app/src/router/routerList';
-import PressableGlobal from '@app/src/components/PressableGlobal';
+import PressableGlobal from '@app/src/components/globals/PressableGlobal';
 import HeaderBottomTab from '@app/src/components/layout/header/HeaderBottomTab';
 import {useTheme} from '@react-navigation/native';
 
@@ -90,6 +90,7 @@ function BottomTab() {
               name={router.name}
               component={router.component}
               options={{
+                // eslint-disable-next-line react/no-unstable-nested-components
                 headerTitle: () => <HeaderBottomTab title={router.label} />,
               }}
             />

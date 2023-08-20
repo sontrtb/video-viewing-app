@@ -5997,6 +5997,11 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
+react-native-awesome-slider@^2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/react-native-awesome-slider/-/react-native-awesome-slider-2.4.2.tgz#33a7f34c5b9adbbb51760a17e1a40b56fd131807"
+  integrity sha512-/1FUAtcO6dGfzynGBY6/Oc0nmsnrcv0XVWV5y8zsXLA4vUMn78Obkl0ZKjZeG/Tvd9rA0vnOT299L09C5bCV/g==
+
 react-native-fast-image@^8.6.3:
   version "8.6.3"
   resolved "https://registry.yarnpkg.com/react-native-fast-image/-/react-native-fast-image-8.6.3.tgz#6edc3f9190092a909d636d93eecbcc54a8822255"
@@ -6012,6 +6017,11 @@ react-native-gesture-handler@^2.12.1:
     invariant "^2.2.4"
     lodash "^4.17.21"
     prop-types "^15.7.2"
+
+react-native-orientation-locker@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/react-native-orientation-locker/-/react-native-orientation-locker-1.5.0.tgz#324853937eed4835ecd1c8613ab2206135d908ac"
+  integrity sha512-4XOCGmNN4BXg5JUFjUuXpsfhPJmbA3LkQilJO1ed+6vL97teTdG2w5IEevKiqL9/hPjeWE8YYtX/YW+yp53hkg==
 
 react-native-reanimated@^3.4.2:
   version "3.4.2"
@@ -6040,6 +6050,11 @@ react-native-shared-element@^0.8.8:
   version "0.8.8"
   resolved "https://registry.yarnpkg.com/react-native-shared-element/-/react-native-shared-element-0.8.8.tgz#1a86ff54d7a96e22d270254d3e642869c7cb3ff3"
   integrity sha512-ZjnsI9IXckzX5CFl2lbVX8Izn93zBfYw6knUtW41NZ/HAPVq6wlFuSxAhvFNJ4HRZ3FX6b8gUMDYuUfX7djj0A==
+
+react-native-system-navigation-bar@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/react-native-system-navigation-bar/-/react-native-system-navigation-bar-2.6.1.tgz#cead40f7311fe92be4921808901b7b56e9c763d8"
+  integrity sha512-IN5n55sEbA4oAvwUqK8oCfKKc4fXJmBzcqC/Eq8bv26gTwzk6oUiPrHtzJCSJvWyCOCt6jKuc9vDWEFTLDOLog==
 
 react-native-toast-message@^2.1.6:
   version "2.1.6"

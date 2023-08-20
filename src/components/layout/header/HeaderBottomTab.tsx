@@ -1,5 +1,6 @@
 import React from 'react';
-import {Text, View, StyleSheet} from 'react-native';
+import {View, StyleSheet} from 'react-native';
+import TextGlobal from '../../globals/TextGlobal';
 
 interface IHeader {
   title: string;
@@ -10,7 +11,7 @@ function HeaderBottomTab(props: IHeader) {
 
   return (
     <View>
-      <Text style={styles.title}>{title}</Text>
+      <TextGlobal style={styles.title}>{title}</TextGlobal>
     </View>
   );
 }

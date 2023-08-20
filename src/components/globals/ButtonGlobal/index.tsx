@@ -1,7 +1,7 @@
 import React from 'react';
 import {ActivityIndicator, Pressable, StyleProp, ViewStyle} from 'react-native';
 import styles from './styles';
-import TextGlobal from '../TextGlobal';
+import TextGlobal from '../../TextGlobal';
 import {useTheme} from '@react-navigation/native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 

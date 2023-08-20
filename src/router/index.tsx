@@ -1,21 +1,25 @@
 import * as React from 'react';
-import {
-  DarkTheme,
-  DefaultTheme,
-  NavigationContainer,
-} from '@react-navigation/native';
+import {DarkTheme, NavigationContainer} from '@react-navigation/native';
 import {memo} from 'react';
-import {useColorScheme} from 'react-native';
+// import {useColorScheme} from 'react-native';
 import {createSharedElementStackNavigator} from 'react-navigation-shared-element';
 import MainStack from './MainStack';
+import {darkTheme} from '../config/theme';
 
 const Stack = createSharedElementStackNavigator();
 
 function MyStack() {
-  const scheme = useColorScheme();
+  // const scheme = useColorScheme();
+
+  const MyTheme = {
+    ...DarkTheme,
+    colors: {
+      ...darkTheme,
+    },
+  };
 
   return (
-    <NavigationContainer theme={scheme === 'dark' ? DarkTheme : DefaultTheme}>
+    <NavigationContainer theme={MyTheme}>
       <Stack.Navigator>
         <Stack.Screen
           name="MainStack"

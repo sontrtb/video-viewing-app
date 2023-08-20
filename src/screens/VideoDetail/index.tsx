@@ -1,4 +1,4 @@
-import TextGlobal from '@app/src/components/TextGlobal';
+import TextGlobal from '@app/src/components/globals/TextGlobal';
 import {RootStackParamList} from '@app/src/router/routerList';
 import {useNavigation} from '@react-navigation/native';
 import {StackNavigationProp} from '@react-navigation/stack';

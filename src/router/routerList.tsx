@@ -5,6 +5,7 @@ import IconFontAwesome from 'react-native-vector-icons/FontAwesome';
 
 import HomeScreen from '@app/src/screens/bottom/HomeScreen';
 import VideoDetail from '../screens/VideoDetail';
+import {darkTheme} from '../config/theme';
 
 export interface IRouterList {
   name: string;
@@ -31,7 +32,7 @@ const routerList: IRouterList[] = [
       <IconAntDesign
         name="home"
         size={25}
-        // color={props.isFocused ? CONFIG.color.main : CONFIG.color.secondaryIcon}
+        color={props.isFocused ? darkTheme.primary : darkTheme.text}
       />
     ),
   },
@@ -45,7 +46,7 @@ const routerList: IRouterList[] = [
       <IconAntDesign
         name="areachart"
         size={25}
-        // color={props.isFocused ? CONFIG.color.main : CONFIG.color.secondaryIcon}
+        color={props.isFocused ? darkTheme.primary : darkTheme.text}
       />
     ),
   },
@@ -59,7 +60,7 @@ const routerList: IRouterList[] = [
       <IconFontAwesome
         name="bell"
         size={25}
-        // color={props.isFocused ? CONFIG.color.main : CONFIG.color.secondaryIcon}
+        color={props.isFocused ? darkTheme.primary : darkTheme.text}
       />
     ),
   },
@@ -73,7 +74,7 @@ const routerList: IRouterList[] = [
       <IconAntDesign
         name="setting"
         size={28}
-        // color={props.isFocused ? CONFIG.color.main : CONFIG.color.secondaryIcon}
+        color={props.isFocused ? darkTheme.primary : darkTheme.text}
       />
     ),
   },
