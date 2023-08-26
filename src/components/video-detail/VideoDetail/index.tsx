@@ -33,9 +33,6 @@ const yOffsetFull = 0;
 
 function VideoDetail() {
   // const navigation = useNavigation<StackNavigationProp<RootStackParamList>>();
-
-  console.log('refetch');
-
   const {height, width} = useWindowDimensions();
 
   const dispatch = useAppDispatch();

@@ -15,3 +15,17 @@ import IconAntDesign from 'react-native-vector-icons/AntDesign';
 
 //
 const {colors} = useTheme();
+
+//
+import React from 'react';
+import {View} from 'react-native';
+
+function HomeScreen() {
+  return (
+    <View style={{flex: 1}}>
+     
+    </View>
+  );
+}
+
+export default HomeScreen;

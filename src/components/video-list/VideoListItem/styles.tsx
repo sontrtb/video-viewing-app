@@ -14,12 +14,12 @@ const styles = StyleSheet.create({
   },
   title: {
     fontWeight: '500',
-    fontSize: 16,
+    fontSize: 14,
     width: windowWidth - 135,
     marginLeft: 15,
   },
   infor: {
-    fontSize: 14,
+    fontSize: 12,
     width: windowWidth - 135,
     marginLeft: 15,
   },
