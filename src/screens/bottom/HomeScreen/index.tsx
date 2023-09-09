@@ -42,6 +42,7 @@ function HomeScreen() {
 
   return (
     <View style={styles.homeScreen}>
+      <VideoList scrollHandler={handleScrollListVideo} />
       <Animated.View
         style={[
           styles.header,
@@ -50,8 +51,6 @@ function HomeScreen() {
         ]}>
         <ListTag />
       </Animated.View>
-
-      <VideoList scrollHandler={handleScrollListVideo} />
     </View>
   );
 }

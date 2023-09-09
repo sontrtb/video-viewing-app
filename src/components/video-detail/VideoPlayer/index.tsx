@@ -6,7 +6,7 @@ import React, {
   useEffect,
   memo,
 } from 'react';
-import {AppState, BackHandler, Pressable, View} from 'react-native';
+import {BackHandler, Pressable, View} from 'react-native';
 import IconAntDesign from 'react-native-vector-icons/AntDesign';
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 import Video, {

@@ -6,6 +6,7 @@ import IconFontAwesome from 'react-native-vector-icons/FontAwesome';
 import HomeScreen from '@app/src/screens/bottom/HomeScreen';
 import VideoDetail from '../screens/VideoDetail';
 import {darkTheme} from '../config/theme';
+import ShortVideo from '../screens/bottom/ShortVideo';
 
 export interface IRouterList {
   name: string;
@@ -19,6 +20,7 @@ export interface IRouterList {
 
 export type RootStackParamList = {
   VideoDetail: undefined;
+  ShortVideo: undefined;
 };
 
 const routerList: IRouterList[] = [
@@ -37,11 +39,11 @@ const routerList: IRouterList[] = [
     ),
   },
   {
-    name: 'Fluctuation',
-    label: 'Biến động số dư',
-    component: HomeScreen,
+    name: 'ShortVideo',
+    label: 'Video ngắn',
+    component: ShortVideo,
     isBottom: true,
-    isHeader: true,
+    isHeader: false,
     icon: props => (
       <IconAntDesign
         name="areachart"

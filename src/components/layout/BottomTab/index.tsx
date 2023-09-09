@@ -90,6 +90,7 @@ function BottomTab() {
               name={router.name}
               component={router.component}
               options={{
+                headerShown: router.isHeader,
                 // eslint-disable-next-line react/no-unstable-nested-components
                 headerTitle: () => <HeaderBottomTab title={router.label} />,
               }}

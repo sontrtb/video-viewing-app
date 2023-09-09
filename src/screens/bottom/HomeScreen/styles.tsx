@@ -8,7 +8,6 @@ const styles = StyleSheet.create({
   header: {
     position: 'absolute',
     top: 0,
-    zIndex: 1,
     paddingVertical: 10,
   },
 });
